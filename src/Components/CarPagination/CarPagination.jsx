@@ -8,7 +8,7 @@ export default function CarPagination({ carsPerPage, totalCars, paginate }) {
     pageNumber.push(i);
   }
 
-  const handlePageChange = (value) => {
+  const handlePageChange = (event, value) => {
     paginate(value);
   };
 
